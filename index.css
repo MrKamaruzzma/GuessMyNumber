@@ -1,14 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:cursive;
+
 
 }
 body{
    /* background: rgba(18, 151, 199, 0.596); */
    background: linear-gradient(70deg,#1fa0ff,#12dafb,#a7fdcc); 
    background: linear-gradient(70deg,#c0e960,#71ee82d6); 
-
 }
 
 #main{
@@ -57,6 +56,8 @@ input{
     width: 300px;
 }
 button{
+    outline:none;
+    border:none;
     padding:10px 4px;
     font-size: 20px;
 }
