@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+
+}
+body{
+   /* background: rgba(18, 151, 199, 0.596); */
+   background: linear-gradient(70deg,#1fa0ff,#12dafb,#a7fdcc); 
+   background: linear-gradient(70deg,#c0e960,#71ee82d6); 
+
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container{
+   margin: 0;
+   border: 1px solid;
+   width: 550px;
+   height: 350px;
+   background-color: #2b50e2;
+
+}
+.btn-section{
+   display: inline-block;
+    
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(222, 238, 51);
+}
+.number{
+    text-align: center;
+    width: 16%;
+    margin-left: 40%;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 30px;  
+}
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+}
+input{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 0;
+    font-size: 20px;
+    width: 300px;
+}
+button{
+    padding:10px 4px;
+    font-size: 20px;
+}
+.check:hover{
+    background-color: rgba(240, 248, 255, 0.385);
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+.again:hover{
+    background-color: rgba(240, 248, 255, 0.385);
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+
+}
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 34px;
+    }
+    p{
+        font-size: 23px;
+    }
+    #main{
+     display: flex;
+     justify-content: center;
+     padding: 0;
+     margin: 0;
+    }
+    .container{
+        width: 80%;
+        height: 100%;
+        margin: 30px;
+     }
+    input{
+        font-size: 30px;
+        font-weight: 600;
+        width: 90%;
+        margin: 20px;
+    }
+    .btn-section{
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        margin: 8px;
+    }
+}
